@@ -43,7 +43,7 @@ httpreq.onload = function() {
         }
     }
     //call send
-httpreq.send();
+setInterval(httpreq.send(), 1000);
 //Common Types of HTTP Statuses
 // 200: OK
 // 404: ERROR
